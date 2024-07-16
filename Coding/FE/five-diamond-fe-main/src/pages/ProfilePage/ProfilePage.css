@@ -1,0 +1,162 @@
+/* profile-avatar */
+.avatar-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.profile-img-avt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.img-avt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  overflow: visible;
+  position: relative;
+  width: 500px;
+
+}
+
+
+#avt-img {
+  display: block;
+  max-width: 100%;
+  width: 30%;
+  border: 1px solid rgb(232, 228, 228);
+  border-radius: 100%;
+  height: auto;
+}
+
+/* button */
+.update-info-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  z-index: 1;
+  background-color: #fff;
+  color: #1877F2;
+  border: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+
+}
+
+.update-info-btn .icon {
+  padding-right: 12px;
+}
+
+
+
+.change-password-btn {
+  position: absolute;
+  top: 50px;
+  right: 15px;
+  z-index: 1;
+  background-color: #fff;
+  color: #1877F2;
+  border: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.change-password-btn .icon {
+  padding-right: 8px;
+}
+
+.update-img-btn {
+
+  position: absolute;
+  bottom: 0px;
+  left: 278px;
+  z-index: 5;
+  border-radius: 50%;
+  color: #1877F2;
+  border: 1px solid rgb(232, 228, 228);
+  background-color: rgb(255, 255, 255);
+}
+
+.show-password-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*profile-info*/
+.profile-info {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.info,
+.info-change-password {
+  background-color: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* Đảm bảo chiếm hết chiều rộng của cột */
+
+
+}
+
+.info-text h3 {
+  margin-bottom: 30px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+
+
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-bottom: 10px;
+}
+
+.info-box p {
+  margin: 0;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.info-value {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 400px;
+  text-align: left;
+  background-color: #f9f9f9;
+  margin: 15px 20px 5px 0;
+}
+
+.info-change-password .info-value {
+  display: flex;
+  align-items: center;
+}
+
+.info-change-password .password {
+  flex-grow: 1;
+}

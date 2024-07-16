@@ -1,0 +1,39 @@
+.Collection {
+  border: 1px solid grey;
+  padding: 5% 1%;
+}
+
+.row-Collection {
+  margin-top: 5%;
+}
+
+.row-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-center img {
+  width: 95%;
+  height: 250px;
+}
+.Collection-title {
+  color: #38a9b8;
+  font-weight: bold;
+}
+
+.Collection-desc {
+  color: black;
+}
+
+.collectionLink {
+  margin-top: 20%;
+}
+.collectionButton {
+  width: 100%;
+  border: 1px solid #06b6d4 !important;
+  color: #06b6d4 !important;
+  font-weight: bold !important;
+  border-radius: 10rem;
+}

@@ -1,0 +1,43 @@
+.header-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+.body-pricepage {
+  margin-bottom: 5%;
+}
+
+.price-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.price-table td {
+  width: 16.66%;
+  text-align: center;
+}
+
+.price-table tr {
+  padding: 8px;
+  text-align: center;
+  width: 16.66%;
+}
+
+.price-table td {
+  padding: 8px;
+  text-align: center;
+  width: 16.66%;
+}
+
+.price-table-header-row {
+  background-color: #06b6d4;
+  color: #ffffff;
+}

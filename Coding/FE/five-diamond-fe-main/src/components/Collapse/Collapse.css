@@ -1,0 +1,21 @@
+.faq-collapse {
+  width: 80%;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+
+.ant-collapse-header {
+  font-size: 18px;
+  font-weight: 300px;
+  padding: 12px 16px;
+  border-radius: 5px 5px 0px 0px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.larger {
+  font-size: larger;
+}

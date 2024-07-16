@@ -1,0 +1,25 @@
+.CollectionPage-Title {
+  font-weight: 600;
+
+  text-align: center;
+  margin-top: 2%;
+  color: #38a9b8;
+
+}
+
+.custom-pagination .MuiPaginationItem-root {
+  color: #000;
+  margin-top: 20px;
+
+}
+
+.custom-pagination .MuiPaginationItem-root.Mui-selected {
+  background-color: #3f51b5;
+  color: #fff;
+}
+
+.custom-pagination .MuiPaginationItem-root:hover {
+  background-color: #f1f1f1;
+  margin-top: 20px;
+
+}
